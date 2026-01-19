@@ -4,7 +4,7 @@ Convert your images into PDF easily! Free & Unlimited!
 ## ✨ Features
 - ✅ **Minimal UI** - Clean and intuitive interface
 - ✅ **Fully Functional** - Works with all image formats
-- ✅ **Select Any Number of Images** - Drag & drop or file picker
+- ✅ **Multiple Images** - Drag & drop or file picker multiple images
 - ✅ **Free & Unlimited** - No limits, no watermarks
 - ✅ **Serverless** - Everything processed on client side (100% private) 🗿
 - ✅ **Multi-Format Support** - JPG, PNG, WebP, GIF, and more

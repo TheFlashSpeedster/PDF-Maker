@@ -29,7 +29,8 @@ header {
     margin-bottom: 20px;
 }
 
-h1 { font-size: 1.25rem; margin: 0; font-weight: 600; }
+h1 { font-size: 1.25rem; margin: 0; font-weight: 600;}
+h1 img { width: 28px; vertical-align: middle;}
 
 button {
     background: var(--accent-color);

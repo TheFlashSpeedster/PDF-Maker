@@ -1,0 +1,116 @@
+:root {
+    --border-color: #ddd;
+    --bg-color: #fff;
+    --text-color: #333;
+    --accent-color: #000;
+    --hover-bg: #f5f5f5;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--text-color);
+    background: var(--bg-color);
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+h1 { font-size: 1.25rem; margin: 0; font-weight: 600; }
+
+button {
+    background: var(--accent-color);
+    color: #fff;
+    border: 1px solid var(--accent-color);
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover { opacity: 0.8; }
+button.btn-text { background: transparent; color: var(--text-color); border: 1px solid var(--border-color); }
+
+.drop-zone {
+    border: 2px dashed var(--border-color);
+    padding: 40px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+    background: #fafafa;
+    transition: background 0.2s;
+}
+.drop-zone.dragover { background: #eef; border-color: #00f; color: #00f; }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.thumbnail {
+    border: 1px solid var(--border-color);
+    padding: 5px;
+    background: #fff;
+    position: relative;
+    cursor: grab;
+}
+.thumbnail:active { cursor: grabbing; }
+
+.img-box {
+    height: 120px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.img-box img { max-width: 100%; max-height: 100%; object-fit: contain; }
+
+.controls { display: flex; justify-content: space-between; margin-top: 5px; }
+.controls button { background: transparent; border: none; color: #666; padding: 2px 5px; }
+.controls button:hover { color: #000; background: #eee; }
+.controls button.delete:hover { color: red; }
+
+.footer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+}
+
+footer {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: auto;
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+footer a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+input[type="text"] { border: 1px solid var(--border-color); padding: 8px; flex-grow: 1; border-radius: 4px; }
+.ext { color: #888; }
+#downloadBtn { padding: 8px 20px; font-weight: 500; }

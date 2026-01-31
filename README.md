@@ -1,6 +1,10 @@
 # 📄 PDF-Maker
 Convert your images into PDF easily! Free & Unlimited!
 
+## 📋 ToDo
+- [ ] Ability to merge Excel and Word files
+- [ ] Save converstion history
+
 ## ✨ Features
 - ✅ **Minimal UI** - Clean and intuitive interface
 - ✅ **Fully Functional** - Works with all image formats
